@@ -13,7 +13,7 @@ class CBuffer
     void push(float x);
     float get(int index);
     void set(int index);
-    void autoCorr(int delay)
+    float autoCorr(int delay)
   private:
     float* _A;
     int _head;

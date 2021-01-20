@@ -24,7 +24,7 @@ void CBuffer::set(int index)
   _A[(_head-index)%_size] = x;
 }
 
-void CBuffer::autoCorr(int delay)
+float CBuffer::autoCorr(int delay)
 {
   if(delay>=0)
   {
